@@ -337,6 +337,7 @@ module.exports = async function (_, env) {
     },
 
     devServer: {
+      disableHostCheck: true,
       // Any unmatched request paths will serve static files from src/*:
       contentBase: path.join(__dirname, 'src'),
       compress: true,
