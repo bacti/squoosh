@@ -1,4 +1,4 @@
-const style = require('./styles.css');
+const styles = require('./styles.css');
 
 /**
  * A simple spinner. This custom element has no JS API. Just put it in the document, and it'll

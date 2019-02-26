@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 import * as prettyBytes from 'pretty-bytes';
-const style = require('./styles.css');
+const style = require('./style.scss');
 
 interface Props {
   blob: Blob;
