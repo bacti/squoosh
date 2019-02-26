@@ -172,7 +172,7 @@ module.exports = async function (_, env) {
     plugins: [
       new webpack.IgnorePlugin(
         /(fs|crypto|path)/,
-        new RegExp(`${path.sep}codecs${path.sep}`)
+        new RegExp(`/codecs/`)
       ),
 
       // Pretty progressbar showing build progress:

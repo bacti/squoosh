@@ -1,4 +1,4 @@
-import * as style from './styles.css';
+const style = require('./styles.css');
 
 export interface SnackOptions {
   timeout?: number;

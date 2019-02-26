@@ -1,5 +1,5 @@
 import { h, Component, ComponentChild, ComponentChildren } from 'preact';
-import * as style from './style.scss';
+const style = require('./styles.css');
 import { transitionHeight } from '../../lib/util';
 
 interface Props {

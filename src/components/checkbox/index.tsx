@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import * as style from './style.scss';
+const style = require('./styles.css');
 import { UncheckedIcon, CheckedIcon } from '../../lib/icons';
 
 interface Props extends JSX.HTMLAttributes {}

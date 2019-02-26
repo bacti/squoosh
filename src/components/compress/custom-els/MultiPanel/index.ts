@@ -1,4 +1,4 @@
-import * as style from './styles.css';
+const style = require('./styles.css');
 import { transitionHeight } from '../../../../lib/util';
 
 interface CloseAllOptions {
